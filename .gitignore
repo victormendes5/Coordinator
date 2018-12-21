@@ -1,0 +1,14 @@
+# Ignore system files
+.DS_Store
+
+# Ignore user data
+Coordinator.xcodeproj/project.xcworkspace/xcuserdata/
+Coordinator.xcodeproj/xcuserdata/
+Coordinator.xcworkspace/xcuserdata/
+
+# Ignore Cocoapods
+/Pods
+
+# Ignore build
+/Build
+xcuserdata/
