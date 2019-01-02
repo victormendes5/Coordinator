@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		008A160921D5565500DA029B /* ListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A160821D5565500DA029B /* ListEntity.swift */; };
+		008A160B21D556F700DA029B /* LinkEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A160A21D556F700DA029B /* LinkEntity.swift */; };
+		008A160D21D557DD00DA029B /* PersonEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A160C21D557DD00DA029B /* PersonEntity.swift */; };
+		008A160F21D55B7100DA029B /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A160E21D55B7100DA029B /* MainTableViewController.swift */; };
 		0CD6CA13550B64B77E22977A /* Pods_Coordinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB3F5F22432D48F2DFD9A2D /* Pods_Coordinator.framework */; };
 		A26C0A7A21CD561600CBCCB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C0A7921CD561600CBCCB2 /* AppDelegate.swift */; };
-		A26C0A7C21CD561600CBCCB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C0A7B21CD561600CBCCB2 /* ViewController.swift */; };
+		A26C0A7C21CD561600CBCCB2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C0A7B21CD561600CBCCB2 /* FirstViewController.swift */; };
 		A26C0A7F21CD561600CBCCB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26C0A7D21CD561600CBCCB2 /* Main.storyboard */; };
 		A26C0A8121CD561700CBCCB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26C0A8021CD561700CBCCB2 /* Assets.xcassets */; };
 		A26C0A8421CD561700CBCCB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26C0A8221CD561700CBCCB2 /* LaunchScreen.storyboard */; };
@@ -17,10 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		008A160821D5565500DA029B /* ListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEntity.swift; sourceTree = "<group>"; };
+		008A160A21D556F700DA029B /* LinkEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkEntity.swift; sourceTree = "<group>"; };
+		008A160C21D557DD00DA029B /* PersonEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonEntity.swift; sourceTree = "<group>"; };
+		008A160E21D55B7100DA029B /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		6BB3F5F22432D48F2DFD9A2D /* Pods_Coordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26C0A7621CD561600CBCCB2 /* Coordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coordinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26C0A7921CD561600CBCCB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A26C0A7B21CD561600CBCCB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A26C0A7B21CD561600CBCCB2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		A26C0A7E21CD561600CBCCB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A26C0A8021CD561700CBCCB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A26C0A8321CD561700CBCCB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,6 +50,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		008A160721D5563F00DA029B /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				008A160A21D556F700DA029B /* LinkEntity.swift */,
+				008A160821D5565500DA029B /* ListEntity.swift */,
+				008A160C21D557DD00DA029B /* PersonEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		008A161021D55CB100DA029B /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				A26C0A7B21CD561600CBCCB2 /* FirstViewController.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		008A161121D55CD600DA029B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A26C0A7D21CD561600CBCCB2 /* Main.storyboard */,
+				A26C0A8521CD561700CBCCB2 /* Info.plist */,
+				A26C0A8021CD561700CBCCB2 /* Assets.xcassets */,
+				A26C0A8221CD561700CBCCB2 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		1E69DDD34EC99705EE54CEEB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -72,14 +109,12 @@
 		A26C0A7821CD561600CBCCB2 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
-				A26C0A8E21CD59A800CBCCB2 /* Entity */,
-				A26C0A8B21CD595500CBCCB2 /* Networking */,
 				A26C0A7921CD561600CBCCB2 /* AppDelegate.swift */,
-				A26C0A7B21CD561600CBCCB2 /* ViewController.swift */,
-				A26C0A7D21CD561600CBCCB2 /* Main.storyboard */,
-				A26C0A8021CD561700CBCCB2 /* Assets.xcassets */,
-				A26C0A8221CD561700CBCCB2 /* LaunchScreen.storyboard */,
-				A26C0A8521CD561700CBCCB2 /* Info.plist */,
+				008A160E21D55B7100DA029B /* MainTableViewController.swift */,
+				008A160721D5563F00DA029B /* Entity */,
+				A26C0A8B21CD595500CBCCB2 /* Networking */,
+				008A161021D55CB100DA029B /* Scene */,
+				008A161121D55CD600DA029B /* Supporting Files */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -90,13 +125,6 @@
 				A26C0A8C21CD596B00CBCCB2 /* Networking.swift */,
 			);
 			path = Networking;
-			sourceTree = "<group>";
-		};
-		A26C0A8E21CD59A800CBCCB2 /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Entity;
 			sourceTree = "<group>";
 		};
 		FCF8556F3703B5DA142AF1A8 /* Frameworks */ = {
@@ -232,8 +260,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A26C0A8D21CD596B00CBCCB2 /* Networking.swift in Sources */,
-				A26C0A7C21CD561600CBCCB2 /* ViewController.swift in Sources */,
+				008A160D21D557DD00DA029B /* PersonEntity.swift in Sources */,
+				008A160921D5565500DA029B /* ListEntity.swift in Sources */,
+				008A160B21D556F700DA029B /* LinkEntity.swift in Sources */,
+				A26C0A7C21CD561600CBCCB2 /* FirstViewController.swift in Sources */,
 				A26C0A7A21CD561600CBCCB2 /* AppDelegate.swift in Sources */,
+				008A160F21D55B7100DA029B /* MainTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,7 +414,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4BELNFV56M;
-				INFOPLIST_FILE = Coordinator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Coordinator/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -402,7 +434,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4BELNFV56M;
-				INFOPLIST_FILE = Coordinator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Coordinator/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

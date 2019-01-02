@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FirstViewController.swift
 //  Coordinator
 //
 //  Created by João Mendes | Stone on 21/12/18.
@@ -7,14 +7,15 @@
 //
 
 import UIKit
+import Moya
 
-class ViewController: UIViewController {
+class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
     }
-
 
 }
 

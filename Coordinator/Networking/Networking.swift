@@ -10,21 +10,27 @@ import Foundation
 import Moya
 
 public enum Requests {
-    case categories
-    case categoriesDetails
+    case first
+    case second
+    case third
+    case list
 }
 
 extension Requests: TargetType {
     public var baseURL: URL {
-        return URL(string: "")!
+        return URL(string: "https://private-4ab845-test11663.apiary-mock.com")!
     }
     
     public var path: String {
         switch self {
-        case .categories:
-            return "/api1"
-        case .categoriesDetails:
-            return "/api2"
+        case .first:
+            return "/personFirst"
+        case .second:
+            return "/personSecond"
+        case .third:
+            return "/personThird"
+        case .list:
+            return "/list"
         }
     }
     
